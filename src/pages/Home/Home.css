@@ -1,0 +1,96 @@
+/* Home.css */
+
+
+  
+  .home {
+    padding-top: 0px 10px;
+    padding-bottom: 100px;
+    
+  }
+  
+  .hero {
+    text-align: center;
+    max-width: 600px;
+    margin: 80px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    /* background-color: white; or any background color that matches your design */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgb(89, 112, 211);
+  }
+  
+  .hero h1 {
+    font-size: max(3vw ,36px);
+    color:white; /* Adjust color to contrast with the background */
+  }
+  
+  .hero p {
+    width: 75%;
+    color: #e3e3e3;
+    line-height: 1.5;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  .hero form {
+    padding: 8px;
+    width: 80%;
+    background-color: white;
+    border-radius: 5px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+
+  }
+  
+  .hero input[type="text"] {
+    flex: 1;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    padding-left: 10px;
+  }
+  
+  .hero button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff; /* Button background color */
+    color: white; /* Button text color */
+    font-size: 1em;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+  }
+  
+  .hero button:hover {
+    background-color: #4a4ca3; /* Darker shade for hover effect */
+  }
+  
+
+
+
+.crypto-table {
+    background:linear-gradient(rgba(84,3,255,0.15),rgba(105,2,153,0.15)); /* Background color */
+    border-radius: 15px; /* Rounded corners */
+    max-width: 800px; /* Maximum width */
+    margin: auto;
+    box-shadow: 0 4px 8px rgba(117, 103, 205, 0.684); /* Optional shadow for better visibility */
+}
+
+.table-layout {
+    display: grid; /* Use flexbox for layout */
+    grid-template-columns: 0.5fr 2fr 1fr 1fr 1.5fr;
+    padding: 15px 20px; /* Padding for the layout */
+    align-items: center;
+    border-bottom: 1px solid #3c3c3c; /* Bottom border for separation */
+}
+
+.market-cap{
+    text-align: right;
+}
